@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #e6f2f1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .card {
+        background-color: #ffffff;
+        width: 350px;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        text-align: center;
+      }
+
+      .card img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid #00a884;
+        margin-bottom: 20px;
+      }
+
+      .card h1 {
+        font-size: 24px;
+        color: #333;
+      }
+
+      .card h2 {
+        font-size: 18px;
+        color: #00a884;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      .card p {
+        font-size: 15px;
+        color: #555;
+        line-height: 1.5;
+      }
+
+      .card ul {
+        list-style-type: square;
+        padding-left: 20px;
+        text-align: left;
+        margin-top: 10px;
+      }
+
+      .card ul li {
+        color: #444;
+        margin-bottom: 5px;
+        font-size: 15px;
+      }
+
+      hr {
+        margin: 20px auto;
+        border: 0;
+        height: 1px;
+        background: #ccc;
+        width: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="/basics_01/download.jpeg"
+        alt="Profile picture of Charan Prakash"
+      />
+      <h1>Charan Prakash</h1>
+      <hr />
+      <h2>About Me</h2>
+      <p>
+        I’m a second-year Computer Science engineering student, currently in my
+        final semester. I’m passionate about programming, problem-solving, and
+        building real-world tech solutions. I'm constantly learning new skills
+        to become a strong software developer.
+      </p>
+      <hr />
+      <h2>My Hobbies</h2>
+      <ul>
+        <li>Singing</li>
+        <li>Reading books</li>
+        <li>Helping my mother</li>
+        <li>Cricket</li>
+      </ul>
+    </div>
+  </body>
+</html>
