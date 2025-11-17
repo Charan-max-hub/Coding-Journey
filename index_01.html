@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skeleton</title>
+    <link rel="stylesheet" href="01_styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="https://tse3.mm.bing.net/th/id/OIP.6tSG3Yyru9npjisfC1q8tQHaE7?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
+          alt="A profile picture of Jane Doe"
+          class="profile-pic"
+        />
+        <h1>Jane Doe</h1>
+        <p>Aspiring Front-End Developer | HTML & CSS Enthusiast</p>
+      </header>
+      <main>
+        <section id="About">
+          <h2>About me</h2>
+          <p>
+            Hello! I am jane, and i'm currently learning web development.This
+            page is my first major project, combining everything I've learned in
+            HTML and CSS over 6 days. My Goal is to create beautiful,functional,
+            and accessible websites
+          </p>
+          <h3 id="card">Skills I'm Learning:</h3>
+          <ul>
+            <li>Semantics HTML 5</li>
+            <li>CSS (Selectors, Box Model, Grid)</li>
+            <li>Responsive Design</li>
+          </ul>
+        </section>
+
+        <section id="projects">
+          <h2>My projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <img
+                src="https://placehold.co/600x400/007BFF/FFFFFF?text=Project+One"
+                alt="Placeholder for project 1"
+              />
+              <h3>My First Webpage</h3>
+              <p>
+                A simple "About me" page built with just HTML. it was the first
+                step in my journey
+              </p>
+              <a href="#" class="cat-button">View project</a>
+            </div>
+
+            <div class="project-card">
+              <img
+                src="https://placehold.co/600x400/6C757D/FFFFFF?text=Project+Two"
+                alt="Placeholder for project two"
+              />
+              <h3>Styled contact form</h3>
+              <p>
+                I learned how to use css to style form, applying the box model
+                and basic selectors.
+              </p>
+              <a href="#" class="cat-button">View project</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h2>Contact Me</h2>
+          <p>Have a question or want to connect? Send me a message!</p>
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="User-name" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="Email">Email</label>
+              <input type="email" name="User-email" id="Email" />
+            </div>
+            <div class="form-group">
+              <label for="Message">Message</label>
+              <textarea name="User-message" id="Message" rows="5"></textarea>
+            </div>
+            <button type="submit" class="cat-button">Send Message</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2025 Jane Doe. Built by hand following a 6-Day plan.</p>
+      </footer>
+    </div>
+  </body>
+</html>
